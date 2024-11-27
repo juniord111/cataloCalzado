@@ -21,7 +21,7 @@
       </a>
 
       <!-- Botón para Volver al Índice -->
-      <a href="../index.html"> <!-- Aquí colocas la URL de la página principal -->
+      <a href="../index.html">
         <button>Volver al Índice</button>
       </a>
     </div>
@@ -55,7 +55,7 @@
                         $('#detalle-precio').text(`${articulo.precio}`);
 
                         // Actualizar el enlace de WhatsApp con la información del artículo
-                        const mensaje = `¡Hola! Estoy interesado en el artículo: ${articulo.nombre}. Aquí está la imagen: ${articulo.src} y el precio es ${articulo.precio}.`;
+                        const mensaje = `¡Hola! Estoy interesado en el artículo: ${articulo.nombre}. El precio es ${articulo.precio}. Por favor revisa la imagen en la parte superior.`;
                         const whatsappUrl = `https://wa.me/573178252933?text=${encodeURIComponent(mensaje)}`;
                         $('#whatsapp-link').attr('href', whatsappUrl);
                     } else {
