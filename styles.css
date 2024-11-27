@@ -230,5 +230,5 @@ a button:hover {
     .galeria-item {
         width: 100%; /* Ocupa el 100% del ancho disponible en pantallas pequeñas */
     }
-#galeria, #galeriaDos, #galeriaTres, #galeriaCuatro { margin-top:10px;}
+#galeria, #galeriaDos, #galeriaTres, #galeriaCuatro { margin-top:-10px;}
 }
