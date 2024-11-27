@@ -16,7 +16,7 @@
     <p id="detalle-precio"></p>
     <div id="botones-detalle">
       <!-- Botón para Mandar WhatsApp -->
-      <a href="https://api.whatsapp.com/send?phone=123456789&text=¡Hola! Estoy interesado en el artículo.">
+      <a id="whatsapp-link" href="https://wa.me/573178252933">
         <button>Manda un WhatsApp</button>
       </a>
 
@@ -28,42 +28,47 @@
   </div>
 
   <script>
-$(function() {
-    // Obtener el parámetro 'id' de la URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = parseInt(urlParams.get('id')); // Obtener el índice del artículo desde la URL
+    $(function() {
+        // Obtener el parámetro 'id' de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = parseInt(urlParams.get('id')); // Obtener el índice del artículo desde la URL
 
-    console.log("ID obtenido de la URL:", id); // Debugging
+        console.log("ID obtenido de la URL:", id); // Debugging
 
-    // Cargar el archivo JSON con los artículos
-    fetch('../articulos.json')
-        .then(response => response.json())
-        .then(data => {
-            // Unir las dos secciones de imágenes
-            const todasLasImagenes = [...data.imagenes, ...data.provicionalDos];
-            console.log("Datos cargados:", todasLasImagenes); // Debugging
+        // Cargar el archivo JSON con los artículos
+        fetch('../articulos.json')
+            .then(response => response.json())
+            .then(data => {
+                // Unir las dos secciones de imágenes
+                const todasLasImagenes = [...data.imagenes, ...data.provicionalDos];
+                console.log("Datos cargados:", todasLasImagenes); // Debugging
 
-            // Verificar si el artículo existe dentro de todasLasImagenes
-            if (todasLasImagenes.length > 0 && id < todasLasImagenes.length) {
-                const articulo = todasLasImagenes[id]; // Usamos todas las imágenes
+                // Verificar si el artículo existe dentro de todasLasImagenes
+                if (todasLasImagenes.length > 0 && id < todasLasImagenes.length) {
+                    const articulo = todasLasImagenes[id]; // Usamos todas las imágenes
 
-                if (articulo) {
-                    // Mostrar los detalles del artículo
-                    $('#detalle-imagen').attr('src', articulo.src);
-                    $('#detalle-nombre').text(articulo.nombre);
-                    $('#detalle-descripcion').text(articulo.alt);
-                    $('#detalle-precio').text(`${articulo.precio}`);
+                    if (articulo) {
+                        // Mostrar los detalles del artículo
+                        $('#detalle-imagen').attr('src', articulo.src);
+                        $('#detalle-nombre').text(articulo.nombre);
+                        $('#detalle-descripcion').text(articulo.alt);
+                        $('#detalle-precio').text(`${articulo.precio}`);
+
+                        // Actualizar el enlace de WhatsApp con la información del artículo
+                        const mensaje = `¡Hola! Estoy interesado en el artículo: ${articulo.nombre}. Aquí está la imagen: ${articulo.src} y el precio es ${articulo.precio}.`;
+                        const whatsappUrl = `https://wa.me/573178252933?text=${encodeURIComponent(mensaje)}`;
+                        $('#whatsapp-link').attr('href', whatsappUrl);
+                    } else {
+                        // Si el artículo no se encuentra, mostrar un mensaje
+                        $('#detalle-articulo').html('<p>Artículo no encontrado.</p>');
+                    }
                 } else {
-                    // Si el artículo no se encuentra, mostrar un mensaje
-                    $('#detalle-articulo').html('<p>Artículo no encontrado.</p>');
+                    // Si no hay imágenes, mostrar un mensaje
+                    $('#detalle-articulo').html('<p>No se han encontrado resultados.</p>');
                 }
-            } else {
-                // Si no hay imágenes, mostrar un mensaje
-                $('#detalle-articulo').html('<p>No se han encontrado resultados.</p>');
-            }
-        })
-        .catch(error => console.error('Error al cargar el archivo JSON:', error));
-});
+            })
+            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    });
   </script>
 </body>
 </html>
