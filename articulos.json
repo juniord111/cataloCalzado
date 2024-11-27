@@ -1,0 +1,491 @@
+{
+  "imagenes": [
+    {
+      "src": "/plataformas/IMG-20240530-WA0079.jpg",
+      "alt": "Plataforma de Yute 1",
+      "nombre": "Plataforma de Yute 1",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0080.jpg",
+      "alt": "Plataforma de Yute 2",
+      "nombre": "Plataforma de Yute 2",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0081.jpg",
+      "alt": "Plataforma de Yute 3",
+      "nombre": "Plataforma de Yute 3",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0082.jpg",
+      "alt": "Plataforma de Yute 4",
+      "nombre": "Plataforma de Yute 4",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0083.jpg",
+      "alt": "Plataforma de Yute 5",
+      "nombre": "Plataforma de Yute 5",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0084.jpg",
+      "alt": "Plataforma de Yute 6",
+      "nombre": "Plataforma de Yute 6",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0085.jpg",
+      "alt": "Plataforma de Yute 7",
+      "nombre": "Plataforma de Yute 7",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0086.jpg",
+      "alt": "Plataforma de corcho 1",
+      "nombre": "Plataforma de corcho 1",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0087.jpg",
+      "alt": "Plataforma de corcho 2",
+      "nombre": "Plataforma de corcho 2",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0088.jpg",
+      "alt": "Plataforma de corcho 3 ",
+      "nombre": "Plataforma de corcho 3",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0091.jpg",
+      "alt": "Plataforma de Yute 13",
+      "nombre": "Plataforma de Yute 13",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0092.jpg",
+      "alt": "Plataforma de corcho 4",
+      "nombre": "Plataforma de corcho 4",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0093.jpg",
+      "alt": "Plataforma de Yute 9",
+      "nombre": "Plataforma de Yute 9",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0094.jpg",
+      "alt": "Plataforma de Yute 10",
+      "nombre": "Plataforma de Yute 11",
+      "precio": 98000
+    },
+    {
+      "src": "/plataformas/IMG-20240530-WA0095.jpg",
+      "alt": "Plataforma de Yute 12",
+      "nombre": "Plataforma de Yute 12",
+      "precio": 98000
+    }
+    ],
+      "provicionalDos": [
+        {
+          "src": "/puntudos/IMG-20240530-WA0036.jpg",
+          "alt": "puntudo 1",
+          "nombre": "puntudo 1",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0037.jpg",
+          "alt": "puntudo 2",
+          "nombre": "puntudo 2",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0038.jpg",
+          "alt": "puntudo 3",
+          "nombre": "puntudo 3",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0039.jpg",
+          "alt": "puntudo 4",
+          "nombre": "puntudo 4",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0040.jpg",
+          "alt": "puntudo 5",
+          "nombre": "puntudo 5",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0041.jpg",
+          "alt": "puntudo 6",
+          "nombre": "puntudo 6",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0042.jpg",
+          "alt": "puntudo 7",
+          "nombre": "puntudo 7",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0043.jpg",
+          "alt": "puntudo 8",
+          "nombre": "puntudo 8",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0044.jpg",
+          "alt": "puntudo 9",
+          "nombre": "puntudo 9",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0045.jpg",
+          "alt": "puntudo 10",
+          "nombre": "puntudo 10",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0046.jpg",
+          "alt": "puntudo 11",
+          "nombre": "puntudo 11",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0047.jpg",
+          "alt": "puntudo 12",
+          "nombre": "puntudo 12",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0048.jpg",
+          "alt": "puntudo 13",
+          "nombre": "puntudo 13",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0049.jpg",
+          "alt": "puntudo 14",
+          "nombre": "puntudo 14",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0050.jpg",
+          "alt": "puntudo 15",
+          "nombre": "puntudo 15",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0051.jpg",
+          "alt": "puntudo 16",
+          "nombre": "puntudo 16",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0052.jpg",
+          "alt": "puntudo 17",
+          "nombre": "puntudo 17",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0053.jpg",
+          "alt": "puntudo 18",
+          "nombre": "puntudo 18",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0054.jpg",
+          "alt": "puntudo 19",
+          "nombre": "puntudo 19",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0055.jpg",
+          "alt": "puntudo 20",
+          "nombre": "puntudo 20",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0056.jpg",
+          "alt": "puntudo 21",
+          "nombre": "puntudo 21",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240530-WA0057.jpg",
+          "alt": "puntudo 22",
+          "nombre": "puntudo 22",
+          "precio": 98000
+        },
+        {
+          "src": "/puntudos/IMG-20240520-WA0095.jpg",
+          "alt": "puntudo 23",
+          "nombre": "puntudo 23",
+          "precio": 98000
+        }
+      ],
+        "sandalias": [
+          {
+            "src": "/sandalias/IMG-20240530-WA0058.jpg",
+            "alt": "sandalia 1",
+            "nombre": "sandalia 1",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0059.jpg",
+            "alt": "sandalia 2",
+            "nombre": "sandalia 2",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0060.jpg",
+            "alt": "sandalia 3",
+            "nombre": "sandalia 3",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0061.jpg",
+            "alt": "sandalia 4",
+            "nombre": "sandalia 4",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0062.jpg",
+            "alt": "sandalia 5",
+            "nombre": "sandalia 5",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0063.jpg",
+            "alt": "sandalia 6",
+            "nombre": "sandalia 6",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0064.jpg",
+            "alt": "sandalia 7",
+            "nombre": "sandalia 7",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0065.jpg",
+            "alt": "sandalia 8",
+            "nombre": "sandalia 8",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0066.jpg",
+            "alt": "sandalia 9",
+            "nombre": "sandalia 9",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0067.jpg",
+            "alt": "sandalia 10",
+            "nombre": "sandalia 10",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0068.jpg",
+            "alt": "sandalia 11",
+            "nombre": "sandalia 11",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0069.jpg",
+            "alt": "sandalia 12",
+            "nombre": "sandalia 12",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0070.jpg",
+            "alt": "sandalia 13",
+            "nombre": "sandalia 13",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0071.jpg",
+            "alt": "sandalia 14",
+            "nombre": "sandalia 14",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0072.jpg",
+            "alt": "sandalia 15",
+            "nombre": "sandalia 15",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0073.jpg",
+            "alt": "sandalia 16",
+            "nombre": "sandalia 16",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0074.jpg",
+            "alt": "sandalia 17",
+            "nombre": "sandalia 17",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0075.jpg",
+            "alt": "sandalia 18",
+            "nombre": "sandalia 18",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0076.jpg",
+            "alt": "sandalia 19",
+            "nombre": "sandalia 19",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0077.jpg",
+            "alt": "sandalia 20",
+            "nombre": "sandalia 20",
+            "precio": 98000
+          },
+          {
+            "src": "/sandalias/IMG-20240530-WA0078.jpg",
+            "alt": "sandalia 21",
+            "nombre": "sandalia 21",
+            "precio": 98000
+          }
+        ],
+          "altos": [
+            {
+              "src": "/tacones/IMG-20240523-WA0000.jpg",
+              "alt": "altos 1",
+              "nombre": "altos 1",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0001.jpg",
+              "alt": "altos 2",
+              "nombre": "altos 2",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0002.jpg",
+              "alt": "altos 3",
+              "nombre": "altos 3",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0003.jpg",
+              "alt": "altos 4",
+              "nombre": "altos 4",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0004.jpg",
+              "alt": "altos 5",
+              "nombre": "altos 5",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0005.jpg",
+              "alt": "altos 6",
+              "nombre": "altos 6",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0006.jpg",
+              "alt": "altos 7",
+              "nombre": "altos 7",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0007.jpg",
+              "alt": "altos 8",
+              "nombre": "altos 8",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0008.jpg",
+              "alt": "altos 9",
+              "nombre": "altos 9",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0009.jpg",
+              "alt": "altos 10",
+              "nombre": "altos 10",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0010.jpg",
+              "alt": "altos 11",
+              "nombre": "altos 11",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0011.jpg",
+              "alt": "altos 12",
+              "nombre": "altos 12",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0012.jpg",
+              "alt": "altos 13",
+              "nombre": "altos 13",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0013.jpg",
+              "alt": "altos 14",
+              "nombre": "altos 14",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0014.jpg",
+              "alt": "altos 15",
+              "nombre": "altos 15",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0015.jpg",
+              "alt": "altos 16",
+              "nombre": "altos 16",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0016.jpg",
+              "alt": "altos 17",
+              "nombre": "altos 17",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0017.jpg",
+              "alt": "altos 18",
+              "nombre": "altos 18",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0018.jpg",
+              "alt": "altos 19",
+              "nombre": "altos 19",
+              "precio": 98000
+            },
+            {
+              "src": "/tacones/IMG-20240523-WA0019.jpg",
+              "alt": "altos 20",
+              "nombre": "altos 20",
+              "precio": 98000
+            }
+          ]
+        }
+        
+      
+    
+    
+
+
+

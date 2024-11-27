@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Artículo</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="/informacion/detalle.css">
+</head>
+<body>
+  <div id="detalle-articulo">
+    <h2>Detalles del Artículo</h2>
+    <img id="detalle-imagen" src="" alt="" width="300px">
+    <h3 id="detalle-nombre"></h3>
+    <p id="detalle-descripcion"></p>
+    <p id="detalle-precio"></p>
+    <div id="botones-detalle">
+      <!-- Botón para Mandar WhatsApp -->
+      <a href="https://api.whatsapp.com/send?phone=123456789&text=¡Hola! Estoy interesado en el artículo.">
+        <button>Manda un WhatsApp</button>
+      </a>
+
+      <!-- Botón para Volver al Índice -->
+      <a href="../index.html"> <!-- Aquí colocas la URL de la página principal -->
+        <button>Volver al Índice</button>
+      </a>
+    </div>
+  </div>
+
+  <script>
+$(function() {
+    // Obtener el parámetro 'id' de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = parseInt(urlParams.get('id')); // Obtener el índice del artículo desde la URL
+
+    console.log("ID obtenido de la URL:", id); // Debugging
+
+    // Cargar el archivo JSON con los artículos
+    fetch('../articulos.json')
+        .then(response => response.json())
+        .then(data => {
+            // Unir las dos secciones de imágenes
+            const todasLasImagenes = [...data.imagenes, ...data.provicionalDos];
+            console.log("Datos cargados:", todasLasImagenes); // Debugging
+
+            // Verificar si el artículo existe dentro de todasLasImagenes
+            if (todasLasImagenes.length > 0 && id < todasLasImagenes.length) {
+                const articulo = todasLasImagenes[id]; // Usamos todas las imágenes
+
+                if (articulo) {
+                    // Mostrar los detalles del artículo
+                    $('#detalle-imagen').attr('src', articulo.src);
+                    $('#detalle-nombre').text(articulo.nombre);
+                    $('#detalle-descripcion').text(articulo.alt);
+                    $('#detalle-precio').text(`${articulo.precio}`);
+                } else {
+                    // Si el artículo no se encuentra, mostrar un mensaje
+                    $('#detalle-articulo').html('<p>Artículo no encontrado.</p>');
+                }
+            } else {
+                // Si no hay imágenes, mostrar un mensaje
+                $('#detalle-articulo').html('<p>No se han encontrado resultados.</p>');
+            }
+        })
+        .catch(error => console.error('Error al cargar el archivo JSON:', error));
+});
+  </script>
+</body>
+</html>
