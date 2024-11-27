@@ -10,7 +10,6 @@
 <body>
   <div id="detalle-articulo">
     <h2>Detalles del Artículo</h2>
-    <img id="detalle-imagen" src="" alt="" width="300px">
     <h3 id="detalle-nombre"></h3>
     <p id="detalle-descripcion"></p>
     <p id="detalle-precio"></p>
@@ -49,13 +48,12 @@
 
                     if (articulo) {
                         // Mostrar los detalles del artículo
-                        $('#detalle-imagen').attr('src', articulo.src);
                         $('#detalle-nombre').text(articulo.nombre);
                         $('#detalle-descripcion').text(articulo.alt);
                         $('#detalle-precio').text(`${articulo.precio}`);
 
                         // Actualizar el enlace de WhatsApp con la información del artículo
-                        const mensaje = `¡Hola! Estoy interesado en el artículo: ${articulo.nombre}. El precio es ${articulo.precio}. Por favor revisa la imagen en la parte superior.`;
+                        const mensaje = `¡Hola! Estoy interesado en el artículo: ${articulo.nombre}. El precio es ${articulo.precio}.`;
                         const whatsappUrl = `https://wa.me/573178252933?text=${encodeURIComponent(mensaje)}`;
                         $('#whatsapp-link').attr('href', whatsappUrl);
                     } else {
