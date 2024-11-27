@@ -40,7 +40,7 @@
             .then(response => response.json())
             .then(data => {
                 // Unir las dos secciones de imágenes
-                const todasLasImagenes = [...data.imagenes, ...data.provicionalDos,..data.sandalias,..data.altos];
+                const todasLasImagenes = [...data.imagenes, ...data.provicionalDos, ...data.sandalias, ...data.altos];
                 console.log("Datos cargados:", todasLasImagenes); // Debugging
 
                 // Verificar si el artículo existe dentro de todasLasImagenes
