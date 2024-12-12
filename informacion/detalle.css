@@ -71,7 +71,15 @@ a button {
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
-
+#volverInicio{
+    margin-top: 7px;
+    background-color: #9b59b6;
+    color: white;
+}
+#volverInicio:hover{
+    background-color: #bc7dd4;
+    
+}
 /* Hover efecto para el botón de WhatsApp */
 a button:hover {
     background-color: #128c7e; /* Verde más oscuro */

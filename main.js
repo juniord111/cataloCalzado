@@ -20,7 +20,7 @@ function renderizarGaleria(imagenes, contenedor) {
                     <button>Más Información</button>
                 </a>
             </div>
-        `;
+        `;  
     });
 
     $(contenedor).html(html);
